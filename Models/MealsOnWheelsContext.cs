@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.CodeAnalysis;
+using MealsOnWheels.Models;
 
 namespace MealsOnWheels.Models
 {
@@ -11,5 +12,7 @@ namespace MealsOnWheels.Models
         }
 
         public DbSet<FoodTruck> FoodTrucks { get; set; } = null!;
+
+        public DbSet<MealsOnWheels.Models.FoodTruckLocation> FoodTruckLocation { get; set; }
     }
 }

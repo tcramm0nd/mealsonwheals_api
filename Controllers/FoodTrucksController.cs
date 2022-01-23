@@ -10,7 +10,7 @@ using MealsOnWheels.Models;
 
 namespace MealsOnWheelsAPI.Controllers
 {
-    [Route("api/v1/mealsonwheels/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class FoodTrucksController : ControllerBase
     {
