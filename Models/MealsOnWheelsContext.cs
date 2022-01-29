@@ -13,6 +13,5 @@ namespace MealsOnWheels.Models
 
         public DbSet<FoodTruck> FoodTrucks { get; set; } = null!;
 
-        public DbSet<MealsOnWheels.Models.FoodTruckLocation> FoodTruckLocation { get; set; }
     }
 }

@@ -10,7 +10,7 @@ using MealsOnWheels.Models;
 
 namespace MealsOnWheelsAPI.Controllers
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/01_dev/[controller]")]
     [ApiController]
     public class FoodTrucksController : ControllerBase
     {
@@ -81,7 +81,7 @@ namespace MealsOnWheelsAPI.Controllers
             _context.FoodTrucks.Add(foodTruck);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetFoodTruck), new { id = foodTruck.ID }, foodTruck);
+            return CreatedAtAction("GetFoodTruck", new { id = foodTruck.ID }, foodTruck);
         }
 
         // DELETE: api/FoodTrucks/5
