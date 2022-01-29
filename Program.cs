@@ -1,12 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using MealsOnWheels.Models;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+// builder.Services.Configure<JsonOptions>(options =>
+// {
+//     options.SerializerOptions.PropertyNameCaseInsensitive = false;
+//     options.SerializerOptions.PropertyNamingPolicy = null;
+//     options.SerializerOptions.WriteIndented = true;
+// });
 builder.Services.AddDbContext<MealsOnWheelsContext>(opt =>
     opt.UseInMemoryDatabase("MealsOnWheels"));
 builder.Services.AddEndpointsApiExplorer();

@@ -12,10 +12,8 @@ namespace MealsOnWheels.Models
         public string? LocationType {get; set; } // Type of Location; should eventually be an enum
         public double CurrentLatitude {get; set; } // Current Lat
         public double CurrentLongitude {get; set; } // Current Lon
-        public byte HourOpen {get; set; }
-        public byte MinuteOpen {get; set; }
-        public byte HourClose {get; set; }
-        public byte MinuteClose {get; set; }
+        public DateTime TimeOpen {get; set; }
+        public DateTime TimeClose {get; set; }
         public DateTime CreatedDate {get; set; } // Date created
         public DateTime UpdatedDate {get; set; } // Date updated
     }
