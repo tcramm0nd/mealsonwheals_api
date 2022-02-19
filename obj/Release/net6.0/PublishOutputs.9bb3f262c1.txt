@@ -7,6 +7,8 @@
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/Humanizer.dll
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/MessagePack.dll
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/MessagePack.Annotations.dll
+/home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/Microsoft.AspNetCore.JsonPatch.dll
+/home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/Microsoft.AspNetCore.Razor.Language.dll
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/Microsoft.Bcl.AsyncInterfaces.dll
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/Microsoft.Build.Locator.dll
@@ -49,6 +51,7 @@
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/Microsoft.Win32.SystemEvents.dll
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/Newtonsoft.Json.dll
+/home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/Newtonsoft.Json.Bson.dll
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/NuGet.Common.dll
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/NuGet.Configuration.dll
 /home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/publish/NuGet.DependencyResolver.Core.dll

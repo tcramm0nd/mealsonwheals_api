@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace MealsOnWheels.Models
 {
     public class FoodTruck
@@ -9,12 +11,27 @@ namespace MealsOnWheels.Models
         public string? Address {get; set; } // Business Address for the Truck; internal use
         public string? CurrentAddress {get; set; } // Address of current location
         public string? LocationName {get; set; } // Name of Current Location
-        public string? LocationType {get; set; } // Type of Location; should eventually be an enum
+        public LocationTypes LocationType {get; set; } // Type of Location
+        public CuisineTypes CuisineType {get; set; } // Type of Cuisine
         public double CurrentLatitude {get; set; } // Current Lat
         public double CurrentLongitude {get; set; } // Current Lon
         public DateTime TimeOpen {get; set; }
         public DateTime TimeClose {get; set; }
-        public DateTime CreatedDate {get; set; } // Date created
+        public DateTime CreatedDate {get; set; } = DateTime.UtcNow;
         public DateTime UpdatedDate {get; set; } // Date updated
+
+    }
+    public enum LocationTypes
+    {
+        Brewery,
+        Park,
+        [Display(Name = "Sports Complex")]
+        SportsComplex
+    }
+    public enum CuisineTypes
+    {
+        American,
+        Tacos,
+        Barbecue
     }
 } 

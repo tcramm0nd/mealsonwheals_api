@@ -84,6 +84,41 @@ namespace MealsOnWheelsAPI.Controllers
             return CreatedAtAction("GetFoodTruck", new { id = foodTruck.ID }, foodTruck);
         }
 
+        // //PATCH
+        // [HttpPatch]
+        // public async Task<ActionResult<FoodTruck>> PatchFoodTruck(FoodTruck foodTruck)
+        // {
+        //     _context.FoodTrucks.Add(foodTruck);
+        //     await _context.SaveChangesAsync();
+
+        //     return CreatedAtAction("GetFoodTruck", new { id = foodTruck.ID }, foodTruck);
+        // }
+
+        // [HttpPatch]
+        // public IActionResult JsonPatchWithModelState(
+        //     [FromBody] JsonPatchDocument<FoodTruck> patchDoc)
+        // {
+        //     if (patchDoc != null)
+        //     {
+        //         var customer = CreateCustomer();
+
+        //         patchDoc.ApplyTo(customer, ModelState);
+
+        //         if (!ModelState.IsValid)
+        //         {
+        //             return BadRequest(ModelState);
+        //         }
+
+        //         return new ObjectResult(customer);
+        //     }
+        //     else
+        //     {
+        //         return BadRequest(ModelState);
+        //     }
+        // }
+
+        
+
         // DELETE: api/FoodTrucks/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteFoodTruck(long id)

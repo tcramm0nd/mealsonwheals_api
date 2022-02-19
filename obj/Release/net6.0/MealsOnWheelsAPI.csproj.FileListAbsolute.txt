@@ -261,3 +261,6 @@
 /home/tim/Projects/MealsOnWheelsAPI/obj/Release/net6.0/ref/MealsOnWheelsAPI.dll
 /home/tim/Projects/MealsOnWheelsAPI/obj/Release/net6.0/MealsOnWheelsAPI.pdb
 /home/tim/Projects/MealsOnWheelsAPI/obj/Release/net6.0/MealsOnWheelsAPI.genruntimeconfig.cache
+/home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/home/tim/Projects/MealsOnWheelsAPI/bin/Release/net6.0/Newtonsoft.Json.Bson.dll
